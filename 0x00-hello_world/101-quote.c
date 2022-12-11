@@ -2,11 +2,9 @@
 #include <unistd.h>
 
 /**
- * main - Entry point
+ * main - prints exactly "and that piece of art is useful"
  *
- * Description: prints exactly and that piece of art is useful
- *
- * Return Always 1 (Success)
+ * Return Always 0 (Success)
  */
 
 int main(void)
