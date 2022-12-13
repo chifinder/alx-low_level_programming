@@ -2,7 +2,8 @@
 #include <unistd.h>
 /**
  * main- prints "all possible combinations of single-digit numbers"
- * prints numbers with combinations of digit
+ * -prints numbers with combinations of digit,
+ * -followed by a new line,
  * Returns: Always 0 (Success)
  */
 int main(void)
