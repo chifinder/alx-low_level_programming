@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main- entry point
- * Description: prints all possible numbers
+ * Description: prints numbers
  * Returns: 0
  */
 int main(void)
