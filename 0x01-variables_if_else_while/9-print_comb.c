@@ -1,24 +1,25 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <unistd.h>
 /**
- * main- prints all combination of numbers
- *
- * Returns: Always (Success)
+ * main - Entry point
+ * Description: prints numbers
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int c = 0;
+	int i;
 
-	while (c < 10)
+	for (i = '0'; i <= '9' ; i++)
 	{
-		putchar(48 + c);
+		putchar(i);
 
-		if (c != 9)
+		if (i != '9')
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		c++;
 	}
+
 	putchar('\n');
 	return (0);
 }
