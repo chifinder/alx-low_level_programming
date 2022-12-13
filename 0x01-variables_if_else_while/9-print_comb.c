@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main- entry point
+ * main - Entry point
  * Description: prints numbers
  * Returns: 0
  */
