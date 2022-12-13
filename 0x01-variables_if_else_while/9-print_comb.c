@@ -1,10 +1,8 @@
 #include<stdio.h>
-#include<stdlib.h>
 /**
- * main- main block
- * Description: prints all single numbers of base of 10
- * starting from 0, folowed by a new line
- * Returns: 0
+ * main- prints all combination of numbers
+ *
+ * Returns: Always (Success)
  */
 int main(void)
 {
