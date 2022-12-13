@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <unistd.h>
+#include <stdlib.h>
 /**
  * main- entry point
  * Description: prints all possible combination of two numbers
@@ -43,5 +43,6 @@ int main(void)
 		}
 		c++;
 	}
+	putchar('/n);
 	return (0);
 }
