@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main- prints "all possible combinations of single-digit numbers"
- * Description: prints numbers
+ * prints numbers with combinations of digit
  * Returns: Always 0 (Success)
  */
 int main(void)
@@ -19,7 +19,6 @@ int main(void)
 			putchar(' ');
 		}
 	}
-	
 	putchar('\n');
-return (0);
+	return (0);
 }
