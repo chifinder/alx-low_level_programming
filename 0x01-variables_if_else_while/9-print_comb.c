@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - Entry point
+ * main- prints "all possible combinations of single-digit numbers"
  * Description: prints numbers
  * Returns: 0
  */
