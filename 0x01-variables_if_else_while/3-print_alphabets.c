@@ -4,7 +4,7 @@
  * main- entry point
  * Description: prints alphabets in lowercase then uppercase
  * Return: 0
- * */
+ */
 int main(void)
 {
 	int ch;
