@@ -35,12 +35,15 @@ int main(void)
 				
 				if (c != 98)
 				{
-					putchar(' , ');
+					putchar(',');
 					putchar(' ');
 				}
 			}
 			c2++;
 		}
 		c++;
-		return (0);
+		
 	}
+	putchar('/n');
+	return(0);
+}
