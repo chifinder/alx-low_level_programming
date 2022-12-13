@@ -1,7 +1,7 @@
 #include<unistd.h>
 #include<stdio.h>
 /**
- * main- entry point 
+ * main- entry point
  * Description: prints lowercase alphabets in reverse
  * Return: 0
  */

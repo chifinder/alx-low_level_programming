@@ -1,25 +1,26 @@
-#include <stdio.h>
-#include <unistd.h>
+#include<stdio.h>
+#include<stdlib.h>
 /**
- * main- entry point
- * Description: prints all possible numbers
+ * main- main block
+ * Description: prints all single numbers of base of 10
+ * starting from 0, folowed by a new line
  * Returns: 0
  */
 int main(void)
 {
-	int i;
+	int c = 0;
 
-	for (i = '0'; i <= '9' ; i++)
+	while (c < 10)
 	{
-		putchar(i);
+		putchar(48 + c);
 
-		if (i != '9')
+		if (c != 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
+		c++;
 	}
-
 	putchar('\n');
 	return (0);
 }
