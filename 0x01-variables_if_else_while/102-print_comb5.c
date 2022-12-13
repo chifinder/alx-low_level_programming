@@ -6,6 +6,7 @@
  * Return: 0
  */
 int main(void)
+{
 	int c, i, k, j;
 
 	for (c = 48; c <= 57; c++)
